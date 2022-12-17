@@ -1,0 +1,38 @@
+nav{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.navbar
+{
+    height: 5.313rem;
+    display: flex;
+    padding: 0 10%;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    justify-content: space-between;
+    box-shadow: 4px 4px 8px 0 rgba(1, 1, 1, 0,1);
+}
+
+.navbar > h1{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.orange
+{
+    color: orange;
+}
+.menu
+{
+    display: flex;
+    gap: 1.875rem;
+    align-items: center;
+
+}
+
+.menu link{
+    scroll-behavior: smooth;
+}
+

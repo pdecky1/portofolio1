@@ -1,0 +1,84 @@
+.about-countainer{
+    display: flex;
+    height: 45.25rem;
+    /* background-color: red; */
+    padding: 0 10%;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: rgb(109, 109, 109);
+    color: white;
+}
+
+    .card2 {
+        width: 210px;
+        height: 254px;
+        border-radius: 4px;
+        /* background: #212121; */
+        display: flex;
+        gap: 5px;
+        padding: .4em;
+    }
+    
+    .card2 p {
+        height: 100%;
+        flex: 1;
+        overflow: hidden;
+        cursor: pointer;
+        border-radius: 2px;
+        transition: all .5s;
+        /* background: #212121; */
+        border: 1px solid #ff7417;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card2 p:hover {
+        flex: 4;
+    }
+    
+    .card2 p span {
+        min-width: 14em;
+        padding: .5em;
+        text-align: center;
+        transform: rotate(-90deg);
+        transition: all .5s;
+        text-transform: uppercase;
+        color: #ffffff;
+        letter-spacing: .1em;
+    }
+    
+    .card2 p:hover span {
+        transform: rotate(0);
+    }
+
+.about-countainer div{
+
+}
+
+.bAbout1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.AboutJudul{
+    font-size: 4.375rem;
+    font-weight: bolder;
+    margin: 5px 0;
+}
+.MyProfile h1{
+    margin: 5px 0;
+}
+.MyProfile p{
+    margin: 5px 0;
+}
+
+.bAbout2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

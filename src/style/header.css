@@ -1,0 +1,99 @@
+.hero-container
+{
+    display: flex;
+    height: 45.25rem;
+    padding: 0 10%;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: -100px;
+}
+
+.nama{
+    color: orange;
+}
+
+.card1 {
+    width: 300px;
+    height: 360px;
+    /* background-color: #a7a7a7; */
+    background-image: url('../elements/img/Profile1.jpg');
+    box-shadow: 15px 15px 30px #868686,
+    -15px -15px 30px #c0c0c0;
+    transition: border-radius cubic-bezier(0.075, 0.82, 0.165, 1) 1s,
+    transform cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
+
+.card1:hover {
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    transform: scale(1.05);
+}
+
+.hero-container div{
+    width: 50%;
+}
+
+.bagian1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.bagian1 h1{
+    font-size: 4.375rem;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.bagian1 p{
+    font-size: 1.125rem;
+    margin: 1px 0;
+}
+
+.bagian2
+{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.getin {
+    margin-top: 20px;
+    padding: 0.8em 1.8em;
+    border: 2px solid #c36a17;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: #c35617;
+    }
+    
+    .getin::before {
+        content: '';
+        width: 0;
+        height: 300%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(45deg);
+        background: #c33917;
+        transition: .5s ease;
+        display: block;
+        z-index: -1;
+    }
+    
+    .getin:hover::before {
+        width: 105%;
+    }
+    
+    .getin:hover {
+        color: rgb(255, 255, 255);
+    }
+    

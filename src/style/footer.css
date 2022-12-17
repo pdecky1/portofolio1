@@ -1,0 +1,18 @@
+.Footer{
+    padding: 0 10%;
+    background-color: rgb(109, 109, 109);
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 5.313rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+
+.footer2
+{
+    display: flex;
+    gap: 1.875rem;
+    align-items: center;
+}
